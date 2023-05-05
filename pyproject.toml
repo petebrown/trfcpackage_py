@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "trfcpackage-py"
+version = "0.1.0"
+description = "Quick access to Tranmere datasets."
+license = "MIT"
+authors = ["Pete Brown <15838790+petebrown@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "trfcpackage_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
